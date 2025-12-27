@@ -1,9 +1,27 @@
 #include "Router.h"
 
-Response Router::route(const Request& request) const {
-    if (request.path() == "/health") {
-        return healthHandler_.handle(request);
-    }
+void Router::registerRoute(HttpMethod method,
+                           const std::string& path,
+                           Handler handler) {
+    routes_[path][method] = std::move(handler);
+}
 
-    return Response(StatusCode::NOT_FOUND, "Route not found");
+Response Router::dispatch(const Request& request) const {
+    const std::string& path = request.path();
+    HttpMethod method = request.method();
+
+    // Checker path
+    auto pathIt = routes_.find(path);
+    if (pathIt == routes_.end()) {
+        return Response(StatusCode::NOT_FOUND, "Not Found");
+    }
+    // checker method
+    const auto& methodMap = pathIt->second;
+    auto methodIt = methodMap.find(method);
+    if (methodIt == methodMap.end()) {
+        return Response(StatusCode::METHOD_NOT_ALLOWED, "Method Not Allowed");
+    }
+    // Dispatch to handler
+    const Handler& handler = methodIt->second;
+    return handler(request);
 }

@@ -2,17 +2,16 @@
 #define SERVER_H
 
 #include "../routing/Router.h"
-#include "../http/Request.h"
-#include "../http/Response.h"
-
 #include <string>
 
 class Server {
-private:
-    Router router_;
-
 public:
+    explicit Server(const Router& router);
+
     Response handleRequest(const std::string& rawRequest) const;
+
+private:
+    const Router& router_;
 };
 
 #endif
