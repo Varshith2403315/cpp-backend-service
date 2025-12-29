@@ -108,7 +108,7 @@ events:
       Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 27-12-2025 12:13:19.
+      Build started 29-12-2025 07:50:56.
       Project "C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -134,7 +134,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.30
+      Time Elapsed 00:00:02.92
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -943,7 +943,7 @@ events:
       Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 27-12-2025 12:13:22.
+      Build started 29-12-2025 07:51:00.
       Project "C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -969,7 +969,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.87
+      Time Elapsed 00:00:01.93
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -1417,8 +1417,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-uvnu9s"
-      binary: "C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-uvnu9s"
+      source: "C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-9ql8rz"
+      binary: "C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-9ql8rz"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1427,38 +1427,38 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-uvnu9s'
+        Change Dir: 'C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-9ql8rz'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_27ab8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_4636e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 27-12-2025 12:13:24.
-        Project "C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvnu9s\\cmTC_27ab8.vcxproj" on node 1 (default targets).
+        Build started 29-12-2025 07:51:03.
+        Project "C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ql8rz\\cmTC_4636e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvnu9s\\Debug\\".
-          Creating directory "cmTC_27ab8.dir\\Debug\\cmTC_27ab8.tlog\\".
+          Creating directory "C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ql8rz\\Debug\\".
+          Creating directory "cmTC_4636e.dir\\Debug\\cmTC_4636e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_27ab8.dir\\Debug\\cmTC_27ab8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_4636e.dir\\Debug\\cmTC_4636e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_27ab8.dir\\Debug\\\\" /Fd"cmTC_27ab8.dir\\Debug\\vc142.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_4636e.dir\\Debug\\\\" /Fd"cmTC_4636e.dir\\Debug\\vc142.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CMakeCCompilerABI.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_27ab8.dir\\Debug\\\\" /Fd"cmTC_27ab8.dir\\Debug\\vc142.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_4636e.dir\\Debug\\\\" /Fd"cmTC_4636e.dir\\Debug\\vc142.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvnu9s\\Debug\\cmTC_27ab8.exe" /INCREMENTAL /ILK:"cmTC_27ab8.dir\\Debug\\cmTC_27ab8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-uvnu9s/Debug/cmTC_27ab8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-uvnu9s/Debug/cmTC_27ab8.lib" /MACHINE:X64  /machine:x64 cmTC_27ab8.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_27ab8.vcxproj -> C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvnu9s\\Debug\\cmTC_27ab8.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ql8rz\\Debug\\cmTC_4636e.exe" /INCREMENTAL /ILK:"cmTC_4636e.dir\\Debug\\cmTC_4636e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-9ql8rz/Debug/cmTC_4636e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-9ql8rz/Debug/cmTC_4636e.lib" /MACHINE:X64  /machine:x64 cmTC_4636e.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_4636e.vcxproj -> C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ql8rz\\Debug\\cmTC_4636e.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_27ab8.dir\\Debug\\cmTC_27ab8.tlog\\unsuccessfulbuild".
-          Touching "cmTC_27ab8.dir\\Debug\\cmTC_27ab8.tlog\\cmTC_27ab8.lastbuildstate".
-        Done Building Project "C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvnu9s\\cmTC_27ab8.vcxproj" (default targets).
+          Deleting file "cmTC_4636e.dir\\Debug\\cmTC_4636e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4636e.dir\\Debug\\cmTC_4636e.tlog\\cmTC_4636e.lastbuildstate".
+        Done Building Project "C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ql8rz\\cmTC_4636e.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.78
+        Time Elapsed 00:00:01.90
         
       exitCode: 0
   -
@@ -1498,8 +1498,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-e55nai"
-      binary: "C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-e55nai"
+      source: "C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-1cuket"
+      binary: "C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-1cuket"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1509,38 +1509,38 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-e55nai'
+        Change Dir: 'C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-1cuket'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_01ce6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_21c21.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 27-12-2025 12:13:26.
-        Project "C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e55nai\\cmTC_01ce6.vcxproj" on node 1 (default targets).
+        Build started 29-12-2025 07:51:06.
+        Project "C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1cuket\\cmTC_21c21.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e55nai\\Debug\\".
-          Creating directory "cmTC_01ce6.dir\\Debug\\cmTC_01ce6.tlog\\".
+          Creating directory "C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1cuket\\Debug\\".
+          Creating directory "cmTC_21c21.dir\\Debug\\cmTC_21c21.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_01ce6.dir\\Debug\\cmTC_01ce6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_21c21.dir\\Debug\\cmTC_21c21.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_01ce6.dir\\Debug\\\\" /Fd"cmTC_01ce6.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_21c21.dir\\Debug\\\\" /Fd"cmTC_21c21.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CMakeCXXCompilerABI.cpp
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_01ce6.dir\\Debug\\\\" /Fd"cmTC_01ce6.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_21c21.dir\\Debug\\\\" /Fd"cmTC_21c21.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e55nai\\Debug\\cmTC_01ce6.exe" /INCREMENTAL /ILK:"cmTC_01ce6.dir\\Debug\\cmTC_01ce6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-e55nai/Debug/cmTC_01ce6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-e55nai/Debug/cmTC_01ce6.lib" /MACHINE:X64  /machine:x64 cmTC_01ce6.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_01ce6.vcxproj -> C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e55nai\\Debug\\cmTC_01ce6.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1cuket\\Debug\\cmTC_21c21.exe" /INCREMENTAL /ILK:"cmTC_21c21.dir\\Debug\\cmTC_21c21.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-1cuket/Debug/cmTC_21c21.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Varshith/OneDrive/Desktop/cpp-backend-service/build/CMakeFiles/CMakeScratch/TryCompile-1cuket/Debug/cmTC_21c21.lib" /MACHINE:X64  /machine:x64 cmTC_21c21.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_21c21.vcxproj -> C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1cuket\\Debug\\cmTC_21c21.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_01ce6.dir\\Debug\\cmTC_01ce6.tlog\\unsuccessfulbuild".
-          Touching "cmTC_01ce6.dir\\Debug\\cmTC_01ce6.tlog\\cmTC_01ce6.lastbuildstate".
-        Done Building Project "C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e55nai\\cmTC_01ce6.vcxproj" (default targets).
+          Deleting file "cmTC_21c21.dir\\Debug\\cmTC_21c21.tlog\\unsuccessfulbuild".
+          Touching "cmTC_21c21.dir\\Debug\\cmTC_21c21.tlog\\cmTC_21c21.lastbuildstate".
+        Done Building Project "C:\\Users\\Varshith\\OneDrive\\Desktop\\cpp-backend-service\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1cuket\\cmTC_21c21.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.82
+        Time Elapsed 00:00:02.15
         
       exitCode: 0
   -

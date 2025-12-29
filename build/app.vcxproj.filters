@@ -13,6 +13,18 @@
     <ClCompile Include="C:\Users\Varshith\OneDrive\Desktop\cpp-backend-service\src\handlers\HealthHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Varshith\OneDrive\Desktop\cpp-backend-service\src\handlers\PostKVHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Varshith\OneDrive\Desktop\cpp-backend-service\src\handlers\GetKVHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Varshith\OneDrive\Desktop\cpp-backend-service\src\handlers\DeleteKVHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Varshith\OneDrive\Desktop\cpp-backend-service\src\storage\KVStore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Varshith\OneDrive\Desktop\cpp-backend-service\CMakeLists.txt" />
