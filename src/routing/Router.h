@@ -17,6 +17,9 @@ public:
                        Handler handler);
 
     Response dispatch(const Request& request) const;
+    Response dispatch(const std::string& routePath,
+                  const Request& request) const;
+
 
 private:
     // path -> (method -> handler)

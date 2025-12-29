@@ -25,3 +25,22 @@ Response Router::dispatch(const Request& request) const {
     const Handler& handler = methodIt->second;
     return handler(request);
 }
+
+
+Response Router::dispatch(const std::string& routePath,
+                          const Request& request) const {
+    HttpMethod method = request.method();
+
+    auto pathIt = routes_.find(routePath);
+    if (pathIt == routes_.end()) {
+        return Response(StatusCode::NOT_FOUND, "Not Found");
+    }
+
+    const auto& methodMap = pathIt->second;
+    auto methodIt = methodMap.find(method);
+    if (methodIt == methodMap.end()) {
+        return Response(StatusCode::METHOD_NOT_ALLOWED, "Method Not Allowed");
+    }
+
+    return methodIt->second(request);
+}
