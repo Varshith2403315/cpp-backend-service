@@ -11,14 +11,17 @@ enum class KVResult {
 
 class KVStore {
 public:
+    explicit KVStore(const std::string& filePath);
+
     KVResult put(const std::string& key, const std::string& value);
-
     KVResult get(const std::string& key, std::string& outValue) const;
-
     KVResult erase(const std::string& key);
 
 private:
+    void persist() const;
+
     std::unordered_map<std::string, std::string> data_;
+    std::string filePath_;
 };
 
 #endif

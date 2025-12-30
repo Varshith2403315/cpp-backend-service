@@ -11,7 +11,7 @@
 
 int main() {
 
-    KVStore store;
+    KVStore store("kv.data");
 
     //Create router
     Router router;
