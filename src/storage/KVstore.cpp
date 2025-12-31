@@ -1,8 +1,9 @@
 #include "KVStore.h"
-#include <fstream>
-#include <cstdio>  
-#include <sstream>
-#include <stdexcept>
+#include <fstream> // input taker
+#include <cstdio>  //opening and reading and renaming
+#include <sstream>   
+#include <stdexcept>  // error handling
+#include <mutex> // locking
 
 
 KVStore::KVStore(const std::string& filePath)
@@ -10,7 +11,7 @@ KVStore::KVStore(const std::string& filePath)
 
     std::ifstream in(filePath_);
     if (!in) {
-        // File does not exist → start with empty store
+        // if File does not exist we start with empty store
         return;
     }
 
@@ -53,27 +54,34 @@ void KVStore::persist() const {
 
 
 KVResult KVStore::put(const std::string& key, const std::string& value) {
+
+    std::lock_guard<std::mutex> lock(mutex_);
+
     data_[key] = value;
     persist();
     return KVResult::OK;
 }
 
 KVResult KVStore::get(const std::string& key, std::string& outValue) const {
+
+    std::lock_guard<std::mutex> lock(mutex_);
+
     auto it = data_.find(key);
     if (it == data_.end()) {
         return KVResult::NOT_FOUND;
     }
-
     outValue = it->second;
     return KVResult::OK;
 }
 
 KVResult KVStore::erase(const std::string& key) {
+
+    std::lock_guard<std::mutex> lock(mutex_);
+
     auto count = data_.erase(key);
     if (count == 0) {
         return KVResult::NOT_FOUND;
     }
-    
     persist();
     return KVResult::OK;
 }

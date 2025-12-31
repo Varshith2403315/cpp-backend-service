@@ -3,6 +3,7 @@
 
 #include <string>
 #include <unordered_map>
+#include <mutex>
 
 enum class KVResult {
     OK,
@@ -19,7 +20,7 @@ public:
 
 private:
     void persist() const;
-
+    mutable std::mutex mutex_;
     std::unordered_map<std::string, std::string> data_;
     std::string filePath_;
 };
