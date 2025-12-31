@@ -1,10 +1,9 @@
 #include "KVStore.h"
 #include <fstream> // input taker
-#include <cstdio>  //opening and reading and renaming
+#include <cstdio>  //std remove
 #include <sstream>   
 #include <stdexcept>  // error handling
 #include <mutex> // locking
-
 
 KVStore::KVStore(const std::string& filePath)
     : filePath_(filePath) {
@@ -47,9 +46,12 @@ void KVStore::persist() const {
     out.flush();
     out.close();
 
+    std::remove(filePath_.c_str());  // ignore result
+
     if (std::rename(tempFile.c_str(), filePath_.c_str()) != 0) {
         throw std::runtime_error("Atomic rename failed");
     }
+
 }
 
 
